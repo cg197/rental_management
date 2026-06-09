@@ -1,0 +1,41 @@
+name: rental_management
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  excel: ^4.0.0
+  path_provider: ^2.1.0
+  cupertino_icons: ^1.0.8
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  flutter_local_notifications: ^17.1.2
+  timezone: ^0.9.4
+  open_file: ^3.3.3
+  url_launcher: ^6.3.0
+  share_plus: ^13.1.0
+  google_maps_flutter: ^2.11.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
